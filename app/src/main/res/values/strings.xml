@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">VisitingCard</string>
+    <string name="name_field">Sowmik Shovon</string>
+    <string name="title_field">Devops Engineer</string>
+    <string name="phone_field">+880 1735867676</string>
+    <string name="email_field">sowmikshovon@gmail.com</string>
+    <string name="location_field">Dhaka, Bangladesh</string>
+    <string name="website_field">sowmik-portfolio-nextjs.vercel.app</string>
 </resources>

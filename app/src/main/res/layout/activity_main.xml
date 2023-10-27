@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="SOWMIK SHOVON"
+        android:text="@string/name_field"
         android:textColor="@color/colorPrimary"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
-        android:text="Devops Engineer"
+        android:text="@string/title_field"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,55 +49,58 @@
         android:id="@+id/horizontalLine"
         android:layout_width="300dp"
         android:layout_height="2dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="44dp"
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titleField" />
 
-    <TextView
+    <Button
         android:id="@+id/phoneField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="+880 1735867676"
+        android:text="@string/phone_field"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalLine" />
+        app:layout_constraintTop_toBottomOf="@+id/horizontalLine"
+        />
 
-    <TextView
+    <Button
         android:id="@+id/emailField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="sowmikshovon@gmail.com"
+        android:text="@string/email_field"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phoneField" />
+        app:layout_constraintTop_toBottomOf="@+id/phoneField"
+        />
 
-    <TextView
+    <Button
         android:id="@+id/locationField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Dhaka, Bangladesh"
+        android:text="@string/location_field"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailField" />
+        app:layout_constraintTop_toBottomOf="@+id/emailField"
+        />
 
     <TextView
         android:id="@+id/websiteField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="sowmik-portfolio-nextjs.vercel.app"
+        android:text="@string/website_field"
         android:textSize="18sp"
         android:textColor="@color/colorPrimary"
         android:textStyle="bold"
@@ -106,6 +109,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/locationField"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:autoLink="web"
+        android:clickable="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
